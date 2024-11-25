@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Exercício"
+        android:padding="10dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edtSets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Séries"
+        android:padding="10dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtReps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Repetições"
+        android:padding="10dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar Exercício"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar para a Tela Principal"
+        android:layout_marginTop="20dp"
+        android:padding="10dp" />
+
+</LinearLayout>
